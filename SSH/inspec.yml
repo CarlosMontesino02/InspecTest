@@ -1,0 +1,11 @@
+name: SSH
+title: SSH check
+maintainer: Carlos Montesino
+copyright: CarlosMontesino02
+copyright_email: carlos.montesino.fernando.02@gmail.com
+license: Proprietary, All rights reserved
+summary: Verificación de instalación y funcionamiento del servidor SSH.
+version: 1.0.0
+supports:
+  - platform-family: linux
+inspec_version: "~> 5.22.3"
