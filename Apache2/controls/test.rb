@@ -1,4 +1,9 @@
-describe service('apache2') do
+#describe service('apache2') do
+	#it { should be_running }
+	#it { should be_enabled }
+#end
+#Para sistemas sin systemd
+describe sysv_service('apache2') do
 	it { should be_running }
 	it { should be_enabled }
 end
