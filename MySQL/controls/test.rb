@@ -1,4 +1,11 @@
-describe service('mysql') do
+#systemd
+#describe service('mysql') do
+#	it { should be_installed }
+#	it { should be_enabled }
+#	it { should be_running }
+#end
+#sistemas con sysv
+describe sysv_service('mysql') do
 	it { should be_installed }
 	it { should be_enabled }
 	it { should be_running }

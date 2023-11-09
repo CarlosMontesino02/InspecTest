@@ -1,4 +1,10 @@
-describe service('nginx') do
+#describe service('nginx') do
+#        it { should be_installed }
+#        it { should be_enabled }
+#        it { should be_running }
+#end
+
+describe sysv_service('nginx') do
         it { should be_installed }
         it { should be_enabled }
         it { should be_running }
